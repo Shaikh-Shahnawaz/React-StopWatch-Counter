@@ -1,0 +1,38 @@
+
+.container-section{
+    height: 93.5vh;
+    background-image: url("https://source.unsplash.com//1600x900/?laptop");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    clip-path: polygon(100% 0%, 100% 75%, 50% 100%, 0% 75%, 0 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-section::before{
+    content: " ";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    opacity: 0.3;
+    z-index: -1;
+    background: linear-gradient(to right, black 0%, #ffc107 0%, black 100%);
+  }
+  
+  .inside-container{
+    color: white;
+    background: linear-gradient(to right, rgb(0, 0, 0) 0%, rgba(255, 255, 255, 0.562) 0%, rgba(0, 0, 0, 0.459) 100%);
+    /* background-color: red; */
+    width: 100%;
+    font-size: 1.5em;
+    padding: 1em 0em ;
+    /* height: 25vh; */
+  }
+  .inside-container h2{
+    letter-spacing: 10px;
+  
+  }

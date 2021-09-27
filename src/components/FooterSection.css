@@ -1,0 +1,9 @@
+footer{
+    background-color: #ffc107;
+    height: 5vh;
+    padding-top: 0.8em;
+    margin-top: 2em;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}

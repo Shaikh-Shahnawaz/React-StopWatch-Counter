@@ -1,0 +1,37 @@
+.contact-section{
+    /* text-align: start; */
+    padding: 2em;
+    background-color: black;
+    /* color: yellow; */
+    color: #ffc107;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+label{
+    color: white;
+}
+.output-p{
+    background-color: white!important;
+    margin-top: 1em;
+    border: 2px solid #ffc107;
+    border-radius: 5px;
+    padding: 5px 0px;
+    color: black;
+}
+.output-p h3{
+    text-align: center;
+    border-bottom:2px solid #ffc107;
+}
+.output-p span{
+
+    text-transform: none;
+    text-align: center;
+    cursor: pointer;
+}
+.output-p span:hover{
+    background-color: #ffc107;
+
+}
+h2{
+    border-radius: 15px 0px 15px 0px;
+}
